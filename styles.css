@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a.no-underline {
+    text-decoration: none; /* Removes underline */
+    color: inherit;
+}
